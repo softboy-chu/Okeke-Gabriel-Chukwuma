@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.animate{
+    animation: example 10s -2s ease-in;
+}
+    @keyframes example {
+        from {width: 20%;}
+        to {width: 100%;}
+    }
+
+.body{
+    font-size: 30px;
+    margin: auto;
+}
+
+.button{
+    font-size: 19px;
+    margin-top: 2%;
+}
+
+.button button{
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+     .animate{
+        animation-name: example;
+        animation-duration: 6s;
+    }
+    
+    
+        @keyframes example {
+            from {width: 10%;}
+            to {width: 100%;}
+        } 
+}

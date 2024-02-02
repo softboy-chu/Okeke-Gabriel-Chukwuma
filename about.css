@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .motto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mission{
+        padding-bottom: 7%;
+    }
+
+    .our-vision{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vision{
+        padding-bottom: 7%;
+    }
+
+    .our-values{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .value{
+        padding-bottom: 7%;
+    }
+
+    .chu-img{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+
+
+}

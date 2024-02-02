@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    pad: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.contact-img {
+    background-image: url(./assets/images/our-vision.png);
+    padding: 150px 50px 150px 50px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.contact-img p {
+    text-align: left;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 40px;
+}
+
+.get-in-touch {
+    padding-top: 10%;
+}
+
+.socials {
+    margin-top: 5%;
+}
+
+.socials ul>li {
+    display: inline;
+    font-style: italic;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.messaging {
+    padding-top: 7%;
+}
+
+.message {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.message h2 {
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12%;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+
+textarea {
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 1%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.button button {
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .location{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .map{
+        width: 90%;
+        margin: auto;
+    }
+
+    .form{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    .contact-img > p{
+        text-align: center;
+    }
+
+
+
+
+
+
+}

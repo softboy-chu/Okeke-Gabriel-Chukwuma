@@ -24,8 +24,17 @@ navBar.addEventListener('click', function(){
   sideBar.style.display = 'block';
 })
 
-let navBarExit = document.getElementById('navBarExit');
+let navBarExit = document.getElementById('navBarExit')
 
 navBarExit.addEventListener('click', function(){
   sideBar.style.display = 'none'
-});
+  navBar.style.display = 'block'
+}
+) 
+
+let container = document.querySelector(`body`)
+if(sideBar.style.display === 'block'){
+  container.addEventListener('click', function(){
+    sideBar.style.display = 'none'
+  })
+}
